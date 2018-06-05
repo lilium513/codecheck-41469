@@ -6,4 +6,4 @@ def main(argv):
     # Edit and remove this code as you like.
 
     for i, v in enumerate(argv):
-        print("Hello {0}!".format(v))
+        print("argv[{0}]: {1}".format(i, v))
